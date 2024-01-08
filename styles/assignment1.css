@@ -1,0 +1,40 @@
+/* common shared style */
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-section {
+    /* Specify the background image for the header */
+    background-image: url('../assets/image/Banner\ Image.png');
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin: 50px 300px;
+
+}
+.banner{
+    display: block;
+    padding: 100px 250px;
+}
+.banner-greeting {
+    color: #eecbcb;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+.banner-des {
+    color: #eecbcb;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 5px;
+    
+}
