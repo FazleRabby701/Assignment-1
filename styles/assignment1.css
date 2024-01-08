@@ -19,7 +19,7 @@ body {
 }
 
 .banner-greeting {
-    color: rgb(238, 203, 203);
+    color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -27,7 +27,7 @@ body {
 }
 
 .banner-des {
-    color: rgb(238, 203, 203);
+    color: #FFF;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
@@ -123,4 +123,59 @@ button.entry-btn {
         center;
     align-items: center;
     flex-shrink: 0;
+}
+
+/* adding location info */
+.location-container {
+    background-image: url('../assets/image/Vectorlll.png');
+    width: 1320px;
+    height: 482px;
+    margin-top: 65px;
+}
+
+.location-info {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 56px;
+    padding: 150px 350px;
+}
+
+.location-place {
+    margin-bottom: -35px;
+    text-align: center;
+}
+
+.location-date {
+    margin-bottom: -35px;
+    text-align: center;
+}
+
+.location-time {
+    margin-bottom: -35px;
+    text-align: center;
+}
+
+.color-change-r {
+    color: #F00;
+}
+
+.btn-po {
+    border-radius: 8px;
+    background: #F00;
+    margin: 45px 265px 0px 238px;
+}
+
+.join-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
 }
