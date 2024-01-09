@@ -3,6 +3,16 @@ body {
     font-family: Merriweather;
 }
 
+/* Shared css*/
+.gif-section-img {
+    width: 413px;
+    height: 450px;
+    border-radius: 16px;
+    gap: 5px;
+    margin-right: 13px;
+    padding-top: 16px;
+}
+
 .header-section {
     background-image: url("../assets/image/Banner Image.png");
     background-position: center center;
@@ -315,11 +325,13 @@ img.img-grp-75 {
     background-position: center bottom;
     border-radius: 16px;
 }
+
 img.img-grp-44 {
     width: 206.841px;
     height: 206.841px;
     padding: 0px 0px 0px 134px;
 }
+
 img.img-grp-44 {
     width: 206.841px;
     height: 206.841px;
@@ -327,17 +339,19 @@ img.img-grp-44 {
     position: absolute;
     display: block;
 }
+
 .gift-section {
     margin-top: 65px;
 }
+
 h4.gift-title {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-
     font-weight: 500;
-
+    margin-bottom: 0px;
 }
+
 h2.gift-info {
     margin-top: 17px;
     color: #070211;
@@ -346,8 +360,9 @@ h2.gift-info {
     font-style: normal;
     font-weight: 900;
 
- 
+
 }
+
 h2.gift-info {
     margin-top: 17px;
     color: #070211;
@@ -355,8 +370,8 @@ h2.gift-info {
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
-
- 
+    margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 p.gift-des {
@@ -367,5 +382,151 @@ p.gift-des {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 160% */
+    line-height: 32px;
+    /* 160% */
+    margin-top: 15px;
+    margin-bottom: 21px;
+    /* text-align: center; */
+    /* margin-left: 0px; */
+}
+
+input.subs-text-bloxk {
+    width: 648px;
+    height: 68px;
+    border: 1px solid black;
+    /* border-right: 30px; */
+    border-bottom-left-radius: 36px;
+    border-top-left-radius: 36px;
+    margin: 17px 0px 67px 0px;
+}
+
+button.subs-button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: none;
+    margin-top: 17px;
+}
+
+.text-subsbtn {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+}
+
+.subs-newsletter {
+    text-align: center;
+    background-image: url("../assets/image/Rectangle\ 11.png");
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+
+img.message-img {
+    width: 150px;
+    height: 150px;
+    padding-top: 39px;
+    margin-bottom: 0px;
+}
+
+h2.subs-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    /* font-style: normal; */
+    font-weight: 900;
+    line-height: normal;
+    /* text-transform: capitalize; */
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 50px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer {
+    background-image: url("../assets/image/Rectangle\ 10.png");
+    display: flex;
+    justify-content: space-between;
+    width: 1287px;
+    height: 500px;
+    margin-top: 62px;
+}
+
+.address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.phone {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+
+.website {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* margin-top: 0px; */
+    text-decoration: none;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: space-between;
+    display: contents;
+}
+
+.contact-address {
+    margin: 50px 13px 35px 80px;
+}
+
+.contact-connection {
+    margin: 50px 3px 0px 475px;
+} */
+
+/* .vr-line {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+} */
+
+ .social-icons-div {
+    display:flex;
+    margin: 50px 0px 0px 0px ;
+} 
+
+.icon-shape {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-right: 50px;
+    /* display: contents; */
 }
